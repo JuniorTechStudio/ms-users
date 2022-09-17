@@ -1,4 +1,4 @@
-CREATE SCHEMA IF NOT EXISTS users
+CREATE SCHEMA IF NOT EXISTS users;
 CREATE TABLE IF NOT EXISTS users.users
 (
     id        uuid not null
