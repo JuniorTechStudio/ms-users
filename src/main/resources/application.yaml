@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: demo-application
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test2
+    username: test
+    password: test
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    default-schema: public
