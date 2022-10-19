@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo-application
+    name: ms-users
   datasource:
     url: jdbc:postgresql://localhost:5432/test
     username: test
@@ -8,3 +8,5 @@ spring:
     driver-class-name: org.postgresql.Driver
   liquibase:
     default-schema: public
+server:
+  port: 8083

@@ -15,7 +15,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Users {
+public class User {
 
     @Id
     @GeneratedValue (generator = "UUID")
@@ -25,11 +25,15 @@ public class Users {
     )
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
-
     @Column(name = "first_name")
     private String firstName;
-
     @Column(name = "last_name")
     private String lastName;
+    @Column(name = "user_name")
+    private String userName;
+    @Column(name = "telegram_id")
+    private String telegramId;
+    @Column(name = "is_blocked")
+    private boolean isBlocked;
 
 }

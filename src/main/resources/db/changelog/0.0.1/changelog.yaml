@@ -1,3 +1,7 @@
 databaseChangeLog:
   - include:
       file: db/changelog/0.0.1/changes/0.0.1-init.sql
+  - include:
+      file: db/changelog/0.0.1/changes/0.0.2-edit-user.sql
+  - include:
+      file: db/changelog/0.0.1/changes/0.0.3-add-constraint-unique-to-user.sql
