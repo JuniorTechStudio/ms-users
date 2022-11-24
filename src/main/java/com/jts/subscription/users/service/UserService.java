@@ -14,10 +14,10 @@ public class UserService {
     private final UserRepository userRepository;
 
     public void createUsers(User user) {
-        User tempUser = userRepository.findUserByTelegramId(user.getTelegramId());
-        if(tempUser == null)
+        if (userRepository.existsUsersByTelegramId(user.getTelegramId())) updateUsers(user);
+        else {
             userRepository.save(user);
-        else updateUsers(user);
+        }
     }
 
     public User getUsers(UUID id) {

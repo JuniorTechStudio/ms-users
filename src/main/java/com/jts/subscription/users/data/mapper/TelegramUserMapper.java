@@ -8,7 +8,6 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface TelegramUserMapper {
 
-    @Mapping(target = "telegramId",source = "id")
     @Mapping(target = "id", ignore = true)
     User mapToUser(TelegramUser telegramUser);
 }
