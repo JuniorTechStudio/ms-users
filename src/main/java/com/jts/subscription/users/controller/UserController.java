@@ -2,7 +2,7 @@ package com.jts.subscription.users.controller;
 
 import com.jts.subscription.users.data.entity.User;
 import com.jts.subscription.users.data.mapper.TelegramUserMapper;
-import com.jts.subscription.users.data.telegram.TelegramUser;
+import com.jts.subscription.users.data.dto.TelegramUser;
 import com.jts.subscription.users.repository.UserRepository;
 import com.jts.subscription.users.service.UserService;
 import lombok.RequiredArgsConstructor;

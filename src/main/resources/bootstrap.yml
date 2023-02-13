@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ms-users
+  cloud:
+    config:
+      uri: http://
