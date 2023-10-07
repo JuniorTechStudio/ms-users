@@ -9,5 +9,8 @@ import org.mapstruct.Mapping;
 public interface TelegramUserMapper {
 
     @Mapping(target = "id", ignore = true)
+    @Mapping(target = "isBlocked", ignore = true)
+    @Mapping(target = "telegramId", source = "telegramUser.id")
     User mapToUser(TelegramUser telegramUser);
+
 }

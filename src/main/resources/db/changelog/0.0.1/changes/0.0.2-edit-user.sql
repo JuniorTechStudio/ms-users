@@ -3,4 +3,4 @@ ALTER TABLE users.users
 ALTER TABLE users.users
     ADD COLUMN telegram_id varchar;
 ALTER TABLE users.users
-    ADD COLUMN is_blocked boolean
+    ADD COLUMN is_blocked boolean;

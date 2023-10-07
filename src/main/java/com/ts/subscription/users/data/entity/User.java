@@ -1,12 +1,12 @@
 package com.ts.subscription.users.data.entity;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.*;
 import java.util.UUID;
 
 @Entity(name = "Users")
@@ -18,7 +18,7 @@ import java.util.UUID;
 public class User {
 
     @Id
-    @GeneratedValue (generator = "UUID")
+    @GeneratedValue(generator = "UUID")
     @GenericGenerator(
             name = "UUID",
             strategy = "org.hibernate.id.UUIDGenerator"
