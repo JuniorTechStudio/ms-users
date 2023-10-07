@@ -1,6 +1,6 @@
-package com.jts.subscription.users.repository;
+package com.ts.subscription.users.repository;
 
-import com.jts.subscription.users.data.entity.User;
+import com.ts.subscription.users.data.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

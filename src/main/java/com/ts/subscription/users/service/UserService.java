@@ -1,7 +1,7 @@
-package com.jts.subscription.users.service;
+package com.ts.subscription.users.service;
 
-import com.jts.subscription.users.data.entity.User;
-import com.jts.subscription.users.repository.UserRepository;
+import com.ts.subscription.users.data.entity.User;
+import com.ts.subscription.users.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

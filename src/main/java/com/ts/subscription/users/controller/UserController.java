@@ -1,10 +1,10 @@
-package com.jts.subscription.users.controller;
+package com.ts.subscription.users.controller;
 
-import com.jts.subscription.users.data.entity.User;
-import com.jts.subscription.users.data.mapper.TelegramUserMapper;
-import com.jts.subscription.users.data.dto.TelegramUser;
-import com.jts.subscription.users.repository.UserRepository;
-import com.jts.subscription.users.service.UserService;
+import com.ts.subscription.users.data.entity.User;
+import com.ts.subscription.users.data.mapper.TelegramUserMapper;
+import com.ts.subscription.users.data.dto.TelegramUser;
+import com.ts.subscription.users.repository.UserRepository;
+import com.ts.subscription.users.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

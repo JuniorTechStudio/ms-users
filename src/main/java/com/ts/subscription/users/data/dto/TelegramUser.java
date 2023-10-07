@@ -1,4 +1,4 @@
-package com.jts.subscription.users.data.dto;
+package com.ts.subscription.users.data.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

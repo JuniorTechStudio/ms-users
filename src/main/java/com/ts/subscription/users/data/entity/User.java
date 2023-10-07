@@ -1,4 +1,4 @@
-package com.jts.subscription.users.data.entity;
+package com.ts.subscription.users.data.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

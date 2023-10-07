@@ -3,4 +3,4 @@ spring:
     name: ms-users
   cloud:
     config:
-      uri: http://
+      uri: http://localhost:8001

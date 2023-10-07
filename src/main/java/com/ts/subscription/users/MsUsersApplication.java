@@ -1,4 +1,4 @@
-package com.jts.subscription.users;
+package com.ts.subscription.users;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

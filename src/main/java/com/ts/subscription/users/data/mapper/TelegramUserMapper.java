@@ -1,7 +1,7 @@
-package com.jts.subscription.users.data.mapper;
+package com.ts.subscription.users.data.mapper;
 
-import com.jts.subscription.users.data.entity.User;
-import com.jts.subscription.users.data.dto.TelegramUser;
+import com.ts.subscription.users.data.entity.User;
+import com.ts.subscription.users.data.dto.TelegramUser;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
