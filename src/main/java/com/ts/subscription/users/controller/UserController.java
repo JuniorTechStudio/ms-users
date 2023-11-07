@@ -1,8 +1,8 @@
 package com.ts.subscription.users.controller;
 
+import com.ts.subscription.users.data.dto.UserCreateRequest;
 import com.ts.subscription.users.data.entity.User;
 import com.ts.subscription.users.data.mapper.TelegramUserMapper;
-import com.ts.subscription.users.data.dto.TelegramUser;
 import com.ts.subscription.users.repository.UserRepository;
 import com.ts.subscription.users.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -34,8 +34,8 @@ public class UserController {
         userService.deleteUsers(id);
     }
 
-    @PostMapping("/save")
-    public void saveTelegramUser(@RequestBody TelegramUser telegramUser) {
+    @PostMapping
+    public void saveTelegramUser(@RequestBody UserCreateRequest telegramUser) {
         User newUser = telegramUserMapper.mapToUser(telegramUser);
         userService.createUsers(newUser);
     }
